@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <recognition>
+        <extension>xslt</extension>
+        <extension>xsl</extension>
+    </recognition>
+    <color>0.493, 0.874, 0.741</color>
+</settings>
