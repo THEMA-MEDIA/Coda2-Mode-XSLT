@@ -7,8 +7,16 @@
         <endregex>--&gt;</endregex>
     </blocks>
     
-    <symbol id="XSLT Template" font-weight="normal" font-style="normal" image="SymbolTAG" indentation="0" ignoreblocks="yes">
-        <regex>&lt;\s+xsl:template\s+[^&gt;]*match *= *"([^"]*)"[^&gt;]*&gt;</regex>
+    <symbol id="XSLT Template match" font-weight="normal" font-style="normal" image="SymbolID" indentation="0" ignoreblocks="yes">
+        <regex>&lt;xsl:template\w+\s+[^&gt;]match *= *"([^"]*)"[^&gt;]*&gt;</regex>
+    </symbol>
+    
+    <symbol id="XSLT Template name" font-weight="normal" font-style="normal" image="SymbolID" indentation="0" ignoreblocks="yes">
+        <regex>&lt;xsl:template\w+\s+[^&gt;]name *= *"([^"]*)"[^&gt;]*&gt;</regex>
+    </symbol>
+    
+    <symbol id="XSLT Param name" font-weight="normal" font-style="normal" image="SymbolID" indentation="0" ignoreblocks="yes">
+        <regex>&lt;xsl:param name="([^"]*)"[^&gt;]*&gt;</regex>
     </symbol>
     
 	<!-- CODA <symbol id="Tags with IDs" font-weight="normal" font-style="normal" image="SymbolID.png" indentation="0" ignoreblocks="yes"> -->
